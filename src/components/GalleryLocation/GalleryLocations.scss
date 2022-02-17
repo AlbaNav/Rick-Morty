@@ -1,0 +1,32 @@
+.Gallerybox {
+  margin-top: 1.5%;
+  background: rgba(180, 84, 95, 0.54);
+  border-radius: 7px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(180, 84, 95, 0.21);
+  background: rgba(180, 84, 95, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(180, 84, 95, 0.21);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Gallerybox img {
+  margin: 5px;
+  padding: 4px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+
+h4{
+    text-transform: uppercase;
+}

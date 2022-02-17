@@ -1,0 +1,60 @@
+.Gallerybox {
+  margin-top: 2%;
+  background: rgba(180, 84, 95, 0.54);
+  border-radius: 7px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(180, 84, 95, 0.21);
+  background: rgba(180, 84, 95, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(180, 84, 95, 0.21);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Gallerybox div {
+  width: 100px;
+  height: 100px;
+}
+.cartita {
+  background: rgba(21, 146, 176, 0.62);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(21, 146, 176, 0.21);
+  object-fit: fill;
+  border: solid #1592b0;
+  border-radius: 10px;
+}
+.cartita img {
+  margin: 5px;
+  padding: 4px;
+  width: 110px;
+  background-color: var(--highlight);
+}
+.cartita p {
+  margin: 9px 10px;
+  font-size: 11px;
+}
+h4 {
+  font-size:11px;
+    margin: 2%;
+  text-align: center;
+}
+.detallitos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one {
+  margin-left: 25%;
+  background-color: #58295d;
+}

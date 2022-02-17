@@ -1,0 +1,50 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+.logo {
+  height: 350px;
+  width: 350px;
+}
+
+h1{
+  text-decoration:overline underline;
+   font-size: 30px;
+  margin: 2%;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  color: rgb(68, 3, 68);
+  text-align: justify;
+
+}
+
+h3 {
+  margin: 3%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: rgb(68, 3, 68);
+  font-size: larger;
+  font-weight: bolder;
+  text-align: justify;
+}
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.texto1{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}

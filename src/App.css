@@ -1,0 +1,20 @@
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+body{
+  background-image:url("https://res.cloudinary.com/dua6dm8ik/image/upload/v1644166504/Dise%C3%B1o_sin_t%C3%ADtulo_1_jz4fd8.jpg");
+  background-position:center;
+  background-size:160%;
+  
+} 
