@@ -8,6 +8,8 @@ export default function GalleryLocations ({list}){
             <img src="https://res.cloudinary.com/dua6dm8ik/image/upload/v1643487424/rick_morty_oygpnb.jpg" alt={item.name}/>
             <figcaption/>
             <h4>{item.name}</h4>
+            <h4>{item.type}</h4>
+            <h4>{item.dimension}</h4>
 
         </figure>)}
     </div>

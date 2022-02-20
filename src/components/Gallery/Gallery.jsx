@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { ProfileContext } from "../../contexts/ProfileContext";
 import "./Gallery.scss";
 
+
 export default function Gallery({ list }) {
   const { setProfile } = useContext(ProfileContext);
 
@@ -9,6 +10,7 @@ export default function Gallery({ list }) {
     setProfile(newProfile)
     document.body.setAttribute("theme", newProfile.species.toLowerCase());
   };
+
 
   return (
     <div className="Gallerybox">
